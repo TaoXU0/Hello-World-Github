@@ -1,5 +1,6 @@
 name: Greeting from TaoXU
 on: push
+
 jobs:
   my-job:
     name: Student
@@ -11,5 +12,5 @@ jobs:
         FIRST_NAME: Tao
         MIDDLE_NAME: THE
         LAST_NAME: XU
-			run: |
+      run: |
          echo $MY_VAR $FIRST_NAME $MIDDLE_NAME $LAST_NAME.
