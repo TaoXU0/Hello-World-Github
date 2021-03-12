@@ -2,7 +2,7 @@ name: Greeting from TaoXU
 on: push
 jobs:
   my-job:
-    name: My Job
+    name: Student
     runs-on: ubuntu-latest
     steps:
     - name: Print a greeting
